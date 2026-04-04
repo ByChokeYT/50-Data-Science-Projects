@@ -1,0 +1,17 @@
+# Entornos Virtuales
+venv/
+.env
+
+# Python (Archivos intermedios)
+__pycache__/
+*.pyc
+*.pyo
+
+# Machine Learning Models (Generalmente conviene excluir los modelos pesados >50MB)
+# models/*.pkl
+# models/*.h5
+
+# Node / JS
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
