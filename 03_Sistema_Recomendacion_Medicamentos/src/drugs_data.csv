@@ -1,0 +1,28 @@
+drugName,condition,review,rating
+Adalimumab,Artritis Reumatoide,Ayuda a manejar el dolor y la rigidez articular de manera muy efectiva.,9.5
+Infliximab,Enfermedad de Crohn,Inmunosupresor potente para condiciones crónicas severas.,8.8
+Etanercept,Psoriasis,Mejora significativa en la claridad de la piel y el dolor articular.,9.2
+Metformina,Diabetes Tipo 2,Tratamiento estándar para manejar los niveles de azúcar en sangre.,8.5
+Glipizida,Diabetes Tipo 2,Efectivo para estimular la producción natural de insulina.,7.8
+Insulina Gargina,Diabetes Tipo 1,Insulina de acción prolongada para el control diario de glucosa.,9.0
+Lisinopril,Hipertensión,Controla la presión arterial con mínimos efectos secundarios.,8.2
+Amlodipino,Hipertensión,Bloqueador de canales de calcio efectivo para la hipertensión crónica.,7.5
+Losartán,Hipertensión,Excelente para la presión arterial y la protección renal.,8.4
+Atorvastatina,Colesterol Alto,Estataline potente para reducir los niveles altos de colesterol LDL.,9.1
+Simvastatina,Colesterol Alto,Ampliamente utilizado y efectivo para el manejo del colesterol.,8.2
+Rosuvastatina,Colesterol Alto,Estatina muy potente para una reducción significativa de lípidos.,9.3
+Sertralina,Depresión,Ayuda a estabilizar el estado de ánimo y los niveles de energía con el tiempo.,8.6
+Escitalopram,Ansiedad,Perfil limpio para el manejo del trastorno de ansiedad generalizada.,8.1
+Fluoxetina,Depresión,Antidepresivo clásico que funciona bien para muchos pacientes.,8.4
+Albuterol,Asma,Inhalador de alivio rápido para síntomas repentinos de asma.,9.6
+Fluticasona,Asma,Inhalador de esteroides diario para prevenir ataques de asma.,8.9
+Montelukast,Alergias,Excelente para alergias estacionales y bloqueo de leucotrienos.,8.2
+Omeprazol,Reflujo Gástrico,Reduce el ácido estomacal y previene episodios de reflujo.,8.8
+Esomeprazol,Reflujo Gástrico,Reductor de ácido más fuerte para problemas crónicos de reflujo.,8.4
+Pantoprazol,Gastritis,Protege el revestimiento del estómago de la producción excesiva de ácido.,7.9
+Amoxicilina,Infección Bacteriana,Antibiótico de amplio espectro para infecciones bacterianas comunes.,8.7
+Azitromicina,Infección Bacteriana,Antibiótico de acción rápida para infecciones respiratorias.,8.3
+Levofloxacino,Infección Bacteriana,Antibiótico más fuerte para casos bacterianos más resistentes.,7.5
+Ibuprofeno,Alivio del Dolor,Alivio confiable para el dolor y la fiebre de venta libre.,9.2
+Naproxeno,Alivio del Dolor,Alivio del dolor más duradero para dolores persistentes.,8.7
+Celecoxib,Inflamación,AINE selectivo para la inflamación y el malestar articular.,8.5

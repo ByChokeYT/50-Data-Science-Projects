@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+@theme {
+  --color-tricell-bg: #050705;
+  --color-tricell-surface: #0a0c0a;
+  --color-tricell-border: rgba(27, 63, 30, 0.35);
+  --color-tricell-emerald: #10b981;
+  --color-tricell-teal: #14b8a6;
+  --color-tricell-cyan: #06b6d4;
+  --color-tricell-muted: #475569;
+}
+
+:root {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+
+  color-scheme: dark;
+  background-color: var(--color-tricell-bg);
+  color: #e2e8f0;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-tricell-bg);
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
+/* Scrollbar elegante */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-tricell-border);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-tricell-emerald);
+}
+
+.page-container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.glass-header {
+  background: rgba(10, 12, 10, 0.85);
+  backdrop-filter: blur(24px);
+  border-bottom: 0.5px solid var(--color-tricell-border);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(12px);
+  border: 0.5px solid var(--color-tricell-border);
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-card:hover {
+  border-color: rgba(16, 185, 129, 0.4);
+  background: rgba(255, 255, 255, 0.04);
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px -8px rgba(0, 0, 0, 0.5);
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, #10b981, #06b6d4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-reveal {
+  animation: fadeIn 0.9s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.input-glow:focus-within {
+  box-shadow: 0 0 20px -5px rgba(16, 185, 129, 0.15);
+}
