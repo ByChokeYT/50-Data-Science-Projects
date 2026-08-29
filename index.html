@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio de Ciencia de Datos & Analítica Avanzada | 50 Proyectos</title>
+  <meta name="description" content="Portal ejecutivo de 50 proyectos de Ciencia de Datos, Machine Learning, Econometría y Deep Learning." />
+  
+  <!-- Google Fonts: Inter, Outfit, Fira Code -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="hub_assets/styles.css" />
+</head>
+<body>
+
+  <div class="app-layout">
+
+    <!-- EXECUTIVE HERO SECTION -->
+    <header class="hero-section">
+      <div class="hero-grid-split">
+        <!-- Left Side: Professional Headline & Search -->
+        <div class="hero-left">
+          <div class="hero-badge">
+            <span class="live-dot"></span>
+            <span>PORTAFOLIO DE INGENIERÍA DE DATOS & ANALÍTICA CUANTITATIVA</span>
+          </div>
+
+          <h1 class="hero-title">
+            50 Soluciones de <span class="gradient-text">Ciencia de Datos</span>
+          </h1>
+
+          <p class="hero-description">
+            Plataforma centralizada de proyectos de Machine Learning, Deep Learning, Series Temporales, NLP y Modelado Predictivo estructurados por sector industrial.
+          </p>
+
+          <!-- Executive Metric Badges -->
+          <div class="hero-stats-bar">
+            <div class="hero-stat-pill">
+              <span class="pill-dot blue"></span>
+              <span><strong>50</strong> Proyectos</span>
+            </div>
+            <div class="hero-stat-pill">
+              <span class="pill-dot emerald"></span>
+              <span><strong id="stat-completed">3</strong> Completados</span>
+            </div>
+            <div class="hero-stat-pill">
+              <span class="pill-dot amber"></span>
+              <span><strong id="stat-progress">1</strong> En Desarrollo</span>
+            </div>
+            <div class="hero-stat-pill">
+              <span class="pill-dot slate"></span>
+              <span><strong>10</strong> Sectores</span>
+            </div>
+          </div>
+
+          <!-- Executive Search Bar -->
+          <div class="search-input-wrap">
+            <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+            <input type="text" id="search-input" class="search-input" placeholder="Buscar por algoritmo, modelo (FastAPI, XGBoost, PyTorch, NLP, CNN, ARIMA...)" />
+            <kbd class="search-shortcut">/</kbd>
+          </div>
+        </div>
+
+        <!-- Right Side: Executive Dashboard Visual Panel -->
+        <div class="hero-right">
+          <div class="hero-graphic-card">
+            <img src="hub_assets/images/executive_hero.png" alt="Quantitative Analytics Dashboard" class="hero-img-banner" />
+            <div class="hero-graphic-overlay"></div>
+            <div class="hero-graphic-tag">
+              <span class="tag-status-live">MONITOR CUANTITATIVO</span>
+              <span class="tag-precision">ROC-AUC 0.94</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- CONTROL BAR (SECTORS & STATUS) -->
+    <section class="controls-bar">
+      <!-- Sector Filters -->
+      <div class="filter-block">
+        <div class="filter-header-label">Sector:</div>
+        <div class="sector-pills" id="sector-pills-container">
+          <!-- Renderizado dinámico desde app.js -->
+        </div>
+      </div>
+
+      <!-- Status Filters -->
+      <div class="filter-block status-block">
+        <div class="filter-header-label">Estado:</div>
+        <div class="status-filters" id="status-filters-container">
+          <!-- Renderizado dinámico desde app.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- MAIN CONTENT AREA -->
+    <main class="content-area">
+      <div class="results-meta">
+        <span class="meta-count" id="results-count">Cargando catálogo...</span>
+      </div>
+
+      <!-- Executive Project Cards Grid -->
+      <div class="projects-grid" id="projects-grid">
+        <!-- Renderizado dinámico desde app.js -->
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="app-footer">
+      <div>Portafolio Ejecutivo de Ciencia de Datos & Analítica Avanzada</div>
+      <div class="cli-hint">Consola de desarrollo: <code>python3 hub.py --serve</code> | <code>python3 hub.py --list</code></div>
+    </footer>
+
+  </div>
+
+  <!-- PROJECT DETAIL MODAL -->
+  <div class="modal-overlay" id="project-modal">
+    <div class="modal-content">
+      <button class="modal-close-btn" id="modal-close-btn" aria-label="Cerrar modal">&times;</button>
+      <div id="modal-content-body">
+        <!-- Contenido renderizado por app.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="hub_assets/projectsData.js"></script>
+  <script src="hub_assets/app.js"></script>
+</body>
+</html>

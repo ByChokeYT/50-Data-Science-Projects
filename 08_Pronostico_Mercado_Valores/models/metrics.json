@@ -1,0 +1,17 @@
+{
+  "rmse": 42.16,
+  "sharpe_ratio": 1.05,
+  "max_drawdown_pct": -11.63,
+  "cagr_pct": 11.8,
+  "feature_names": [
+    "close",
+    "volume",
+    "sma_20",
+    "ema_50",
+    "rsi_14",
+    "bollinger_upper",
+    "bollinger_lower",
+    "macd",
+    "macd_signal"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "roc_auc": 0.8243,
+  "gini_coefficient": 0.6485,
+  "ks_statistic": 0.5017,
+  "mean_credit_score": 551.726,
+  "min_credit_score": 437.0,
+  "max_credit_score": 681.0,
+  "feature_names": [
+    "annual_income",
+    "loan_amount",
+    "loan_term_months",
+    "dti_ratio",
+    "employment_years",
+    "past_defaults_count",
+    "credit_lines_count",
+    "repayment_history_score"
+  ],
+  "feature_coefficients": {
+    "annual_income": -0.4549,
+    "loan_amount": 0.3416,
+    "loan_term_months": 0.0342,
+    "dti_ratio": 0.4885,
+    "employment_years": -0.2907,
+    "past_defaults_count": 0.7202,
+    "credit_lines_count": 0.0243,
+    "repayment_history_score": -0.5624
+  }
+}

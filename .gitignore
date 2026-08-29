@@ -8,7 +8,6 @@ venv/
 env/
 build/
 develop-eggs/
-dist/
 downloads/
 eggs/
 .eggs/
@@ -32,8 +31,10 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
-dist/
 .next/
+
+# Allow frontend dist folders for GitHub Hub preview
+!**/frontend/dist/**
 
 # IDEs
 .vscode/
@@ -45,7 +46,7 @@ dist/
 .DS_Store
 Thumbs.db
 
-# Large Models (BiomedCLIP is usually cached in ~/.cache, but let's be safe)
+# Large Models
 *.bin
 *.pt
 *.pth
